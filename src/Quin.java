@@ -3,8 +3,9 @@ import java.io.Serializable;
 public class Quin extends Bees{
 
     @Override
-    public void working() {
+    public int working(int par) {
         System.out.println("Я делаю королевскую работу");
+    return 34;
     }
     public Bees creatingBess(){
         Bees result = null;
